@@ -1,0 +1,11 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Offline TTS demo powered by sherpa_onnx.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "sherpa_onnx": "file:./src/sherpa_onnx.har"
+  }
+}

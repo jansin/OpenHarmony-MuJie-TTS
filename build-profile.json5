@@ -1,0 +1,55 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:/Users/Jason/.ohos/config/openharmony/default_TTSDemos_p8WVqcjjF5UhEbzfIAqB0ZeeaCSM-BM6MjOG3v3zn2A=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B1D520F991462C55ED0363C422FC32419B1D771652C895F2C969FE07A1B4642A51C233610C3C557",
+          "profile": "C:/Users/Jason/.ohos/config/openharmony/default_TTSDemos_p8WVqcjjF5UhEbzfIAqB0ZeeaCSM-BM6MjOG3v3zn2A=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/Jason/.ohos/config/openharmony/default_TTSDemos_p8WVqcjjF5UhEbzfIAqB0ZeeaCSM-BM6MjOG3v3zn2A=.p12",
+          "storePassword": "0000001B989D0DDFB172A4AE05C034CC00FB54222A88D561CFFACF9A82F5136560AC5BC084F6235009850F"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": 12,
+        "targetSdkVersion": 12,
+        "compatibleSdkVersion": 12,
+        "runtimeOS": "OpenHarmony",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

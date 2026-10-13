@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "基于 sherpa_onnx 的离线文字转语音 Demo"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "离线 TTS 演示"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "离线 TTS"
+    }
+  ]
+}
